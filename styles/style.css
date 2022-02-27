@@ -525,3 +525,86 @@ footer p{
     font-size: 2rem;
     color: var(--blanco);
 }
+/*-------*/
+/*SOPORTE*/
+/*-------*/
+/*Main*/
+.contenido--soporte{
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+}
+.contenido--soporte .titulo--soporte{
+    height:  3.5rem;
+}
+.contenido--soporte .titulo--soporte p{
+    margin: auto;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.contenido--soporte form p{
+    color: var(--negro);
+    font-size: 2rem;
+}
+.contenido--soporte form input[type=text],
+.contenido--soporte form input[type=tel],
+.contenido--soporte form input[type=email]{
+   text-align: center;
+   outline: none;
+    text-decoration: none;
+   transform: none;
+   border-radius: 3rem;
+}
+.contenido--soporte form textarea{
+    text-align: center;
+    outline: none;
+    width: 60rem;
+    border-radius: 2rem;
+}
+
+@media (max-width: 646px){
+    .contenido--soporte form textarea{
+        max-width: 40rem;
+    }
+}
+
+@media (max-width: 448px){
+    .contenido--soporte form textarea{
+        max-width: 30rem;
+    }
+}
+
+@media (max-width: 332px){
+    .contenido--soporte form textarea{
+        max-width: 20rem;
+    }
+}
+
+.contenido--soporte form input[type=text]:hover,
+.contenido--soporte form input[type=tel]:hover,
+.contenido--soporte form input[type=email]:hover{
+    -webkit-box-shadow: -6px -2px 41px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -2px 41px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px -2px 41px 0px rgba(0,0,0,0.75);
+}
+
+/*Redes Sociales*/
+.redes--sociales{
+    margin: 0;
+    margin-top: 1rem;
+    background-color: var(--negro);
+    padding: 1rem;
+}
+.redes--sociales p{
+    font-size: 4rem;
+    margin: 1rem;
+}
+.redes--sociales .redes p{
+    font-size: 2rem;
+}
+
+.redes--sociales:hover{
+    background-color: rgb(0, 0, 0, 0.9);
+}
